@@ -86,7 +86,7 @@ a:link, a:visited {
     color: red;
 }
 
-.italian-flag > image{
+div.italian-flag{
     text-align: center;
     display: block;
 }
