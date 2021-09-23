@@ -3,53 +3,74 @@
   <head>
     <meta name="keywords" content="HTML, CSS, Javascript" />
     <meta name="description" content="Oblig #1, Task B" />
-    <meta name="authors" content="" />
+    <meta name="authors" content="Gruppe 1200" />
     <meta name="viewport" content="width-device-width, initial" />
-  </head>
+  
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=Montserrat&display=swap" 
+    rel="stylesheet">
+</head>
 
   <body>
     <header class="header">
-      <nav class="nav">
-        <a href="my-index.html" class="logo">
-          <img src="images/logo.png" alt="logo" />
-        </a>
+      <div class="container-fluid">
+      <!--Navigation bar-->
+
+        <nav class="nav">
+        
         <ul class="nav-list">
-          <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
-          <li class="nav-item">
+          <dl class="nav-item">
+              <a href="#home" class="nav-link">Home</a>
+          </dl>
+          <dl class="nav-item">
             <a href="#about" class="nav-link">About us</a>
-          </li>
-          <li class="nav-item"><a href="#lunch" class="nav-link">Lunch</a></li>
-          <li class="nav-item">
-            <a href="#dinner" class="nav-link">Dinner</a>
-          </li>
-          <li class="nav-item">
-            <a href="#snacks" class="nav-link">Snacks</a>
-          </li>
-          <li class="nav-item">
-            <a href="#contact" class="nav-link">Contact us</a>
-          </li>
+            </dl>
+            <dl>
+                <a href="my-index.html" class="logo">
+                    Italiano
+                  </a>
+            </dl>
+          <dl class="nav-item">
+              <a href="#Menu" class="nav-link">Menu</a>
+            </dl>
+          
+          <dl class="nav-item">
+            <a href="#reservation" class="nav-link">Reservation</a>
+          </dl>
         </ul>
       </nav>
-    </header>
-
-    <a id="Lunch"><h1>Lunch</h1></a>
-    <div class="Omlette">
-      <div class="left">
-        <figure>
-          <img src="images/lunch/omelette" alt="Omelette" />
-          <figcaption>Test</figcaption>
-        </figure>
-      </div>
-      <div class="right">
-        <p>Ingredienser, allergens</p>
-      </div>
     </div>
+    </header>
+    
+    <main>
+        <div class="backgr" id="backgr">
 
-    <h2>Dinner</h2>
-    <p></p>
+            
+        </div>
+    
 
-    <h1>Snacks</h1>
+    <p>
+      <figure class ="italian-flag">
+        <img src="images/italy-flag_large.jpeg" alt="Italian flag">
+      </figure>
+    </p>
+
+    <p>
+     <div class = "description">
+       <div class ="left">
+         <img src="" alt="">
+       </div>
+       <div class="right">
+         <p>Velkommen til Italiano...</p>
+       </div>
+     </div>
+    </p>
+    </main>
   </body>
-
   <footer></footer>
 </html>
