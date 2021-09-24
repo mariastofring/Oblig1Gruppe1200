@@ -7,6 +7,7 @@ html {
 body {
     font-family: "Montserrat", sans-serif;
     overflow-x: hidden;
+
 }
 /* Link style */
 a {
@@ -47,12 +48,13 @@ a:link, a:visited {
     left: 0;
     height: 13rem;
     z-index: 1;
-    background-color:rgb(255, 255, 255);
+    background-color:#008C45;
     
 }
 
 .logo {
-    font-size: 4em;
+    
+    font-size: 6rem;
     font-family: "Vivaldi";
     cursor: pointer;  
 }
@@ -64,7 +66,7 @@ a:link, a:visited {
 .nav-item {
     font-family: "Tempus SANS ITC";
     color: white;
-    font-size:1.6rem;
+    font-size:2rem;
     letter-spacing: 2px;
     margin-right:17px;
     
@@ -92,10 +94,50 @@ a:link, a:visited {
 .hero {
     width:100%;
     height:100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/hero.png") center no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/hero.png") center no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
-.italian-flag{
-    position: center;
-    display: block;
+
+.title {
+    font-size: 4rem;
+    font-family: "Cormorant Garamond";
+    color: #fff;    
+}
+
+.go-top {
+    position:fixed;
+    width:2rem;
+    height:3rem;
+    bottom:2rem;
+    right:2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    border-radius: 50%;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+.go-top:hover {
+    color:red;
+}
+.description > div{
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.description > div.left,
+.description > div.right{
+    height: 100%;
+    width: 45%;
+}
+
+.restaurant-title{
+    text-align: center;
 }
 
