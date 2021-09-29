@@ -5,7 +5,7 @@ html {
 }
 
 body {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat",sans-serif;
     overflow-x: hidden;
     margin: 0%;
     background-color: #f9f9f9;
@@ -27,7 +27,7 @@ a:link, a:visited {
 .container {
     width: 100%;
     max-width: 100%;
-   
+    margin: 0 auto;
     padding: 0 2.4rem;
     
 }
@@ -56,8 +56,9 @@ a:link, a:visited {
 .logo {
     
     font-size: 6rem;
-    font-family: "Vivaldi";
+    font-family: "Cormorant Garamond";
     cursor: pointer;  
+    padding-right: 4rem;
 }
 
 .logo:hover {
@@ -69,16 +70,16 @@ a:link, a:visited {
     color: white;
     font-size:2rem;
     letter-spacing: 2px;
-    margin-right:17px;
+    
     
 }
 .nav-list {
     
-    
-    
+    padding-left:20%;
+    padding-right: 20%;
     flex-direction:row;
     display: flex;
-    align-items: center;
+    align-items: center; 
     justify-content:space-between;
     
 
@@ -91,7 +92,7 @@ a:link, a:visited {
 
 .hero {
     width:100%;
-    height:100vh;
+    height:90rem;
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/hero.png") center no-repeat;
     background-size:cover;
     background-attachment: fixed;
@@ -124,16 +125,6 @@ a:link, a:visited {
 .go-top:hover {
     color:red;
 }
-.description > div{
-    vertical-align: middle;
-    display: inline-block;
-}
-
-.description > div.left,
-.description > div.right{
-    height: 100%;
-    width: 45%;
-}
 
 .title{
     text-align: center;
@@ -144,7 +135,7 @@ a:link, a:visited {
 
 .offers{
     align-items: center;
-    width:100%;
+    width:97%;
     background-color: #f9f9f9;
     padding-bottom: 8rem;
     
@@ -180,5 +171,10 @@ a:link, a:visited {
 
 .food-desc{
     margin-top:2rem;
+    font-size: 1.5rem;
 
+}
+
+.allergen{
+    font-size: 1.25rem;
 }
