@@ -140,6 +140,15 @@ a:link, a:visited {
     width: 400px;
     ;
 }
+
+/* Opening hours */
+
+.opening-hours{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+}
+
 /* OFFERS */
 
 
@@ -175,9 +184,13 @@ a:link, a:visited {
     text-align: center;
 }
 
+.section-title{
+    color: #52593b
+}
+
 .food-item{
-    font-size: 25px;
-    font-family:"Times new roman"
+    font-size: 30px;
+    font-family:"Times new roman";
 }
 
 .food-desc{
