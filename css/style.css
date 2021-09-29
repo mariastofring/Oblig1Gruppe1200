@@ -69,7 +69,7 @@ a:link, a:visited {
 .logo {
     color: #f9f9f9;
     font-size: 6rem;
-    font-family: "Times new roman";
+    font-family: "Times new rom<n";
     cursor: pointer;  
     padding-right: 4rem;
 }
@@ -87,7 +87,7 @@ a:link, a:visited {
 .hero {
     width:100%;
     height:90rem;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/Restaurantbilde.jpeg") center no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/design/Restaurantbilde.jpeg") center no-repeat;
     background-size:cover;
     background-attachment: fixed;
     display:flex;
@@ -127,18 +127,19 @@ a:link, a:visited {
 .about{
     margin-top: 15%;
     margin-bottom: 7%;
+    position:relative;
     align-items: center;
 }
 
 .about-us{
     font-size: 20px;
-    font-family:"Times new roman"
-    width: 100%;
+    font-family:"Times new roman";
+    margin-right: 30%;
 }
 
 .about-item{
     width: 400px;
-    ;
+    margin-left: 30%;
 }
 
 /* Opening hours */
@@ -182,6 +183,7 @@ a:link, a:visited {
     grid-gap:5rem;
     margin:0 auto;
     text-align: center;
+    
 }
 
 .section-title{
