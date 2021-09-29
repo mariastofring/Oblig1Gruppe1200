@@ -15,6 +15,10 @@ a {
     text-decoration: none;
 }
 
+ul{
+    list-style-type: none;
+}
+
 a:link, a:visited {
     background-color: #6a6344;
     color: white;
@@ -203,4 +207,8 @@ a:link, a:visited {
 
 .allergens{
     font-size: 18px;
+}
+
+.grid-item{
+    width: 100%;
 }
