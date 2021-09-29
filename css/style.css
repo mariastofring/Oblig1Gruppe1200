@@ -16,7 +16,7 @@ a {
 }
 
 a:link, a:visited {
-    background-color: #026835;
+    background-color: #6a6344;
     color: white;
     padding: 14px 20px;
     text-align: center;
@@ -41,7 +41,7 @@ a:link, a:visited {
     
     
     z-index: 1;
-    background-color:#026835;
+    background-color:#857c55;
     
 }
 
@@ -149,7 +149,7 @@ a:link, a:visited {
 
 .section-title{
     text-align: center;
-    font-size: 4rem;
+    font-size: 50px;
     font-family:"Times new roman";
     padding:5rem;
 }
