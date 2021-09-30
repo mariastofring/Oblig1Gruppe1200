@@ -74,6 +74,9 @@ a:link, a:visited {
     cursor: pointer;  
     padding-right: 4rem;
 }
+.logo:hover{
+    color: #353926 ;
+}
 
 
 /* Nav Link */
@@ -144,6 +147,40 @@ a:link, a:visited {
     margin-left: 30%;
 }
 
+.button{
+    width: 68.5%;
+    margin-top: 50px;
+    font-size: 18px;
+}
+.button:hover{
+    color: #353926
+}
+
+/* Rapport */
+
+.rapport-title{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.gruppemedlem{
+    font-size: 25px;
+    text-align: center;
+}
+
+.gruppe{
+    align-items: center;
+    font-size: 15px;
+}
+.rapport{
+    text-align: center;
+    font-size: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+
 /* Opening hours */
 
 .opening-hours{
@@ -156,13 +193,14 @@ a:link, a:visited {
 
 .offers{
     align-items: center;
-    width:97%;
+    width:100%;
     background-color: #f9f9f9;
     padding-bottom: 8rem;
     
 }
 
 .section-title{
+    
     text-align: center;
     font-size: 50px;
     font-family:"Times new roman";
